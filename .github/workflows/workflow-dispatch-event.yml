@@ -33,3 +33,4 @@ jobs:
           LEVEL: ${{ github.event.inputs.logLevel }}
           TAGS: ${{ github.event.inputs.tags }}
           ENVIRONMENT: ${{ github.event.inputs.environment }}
+
