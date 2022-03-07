@@ -1,7 +1,7 @@
-  jobx:
+ jobx:
     runs-on: ubuntu-latest
     steps:
-      - name: Git Version
-        uses: codacy/git-version@2.2.0
+      - name: Node steps
+        uses: escemi-tech/actions-node@v15.0
       - name: verification of node version
         run: node --version
